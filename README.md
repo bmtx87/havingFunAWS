@@ -57,7 +57,7 @@ sudo timedatectl set-timezone America/Chicago
 
 Generating New SSH Key:
 ```bin/bash
-ssh-keygen -t ed25519 -C "\<email\>"
+ssh-keygen -t ed25519 -C "<email>"
 ```
 
 Copying Local SSH Keys to EC2 Instance:
