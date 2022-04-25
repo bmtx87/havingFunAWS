@@ -20,7 +20,7 @@ Test Reachability:
 * ensure Ping to ec2 instance IP
 
 
-Login Cmd:
+Login CMD:
 
 ```bin/bash
 ssh -i <path_to_pem file> ec2-user@<ip>
@@ -53,12 +53,11 @@ sudo timedatectl set-timezone <timezone>
 
 # Example
 sudo timedatectl set-timezone America/Chicago
-```
 
-Generating New SSH Key:
-```bin/bash
+# Generating New SSH Key (EC2 Instance):
 ssh-keygen -t ed25519 -C "<email>"
 ```
+
 
 Copying Local SSH Keys to EC2 Instance:
 ```bin/bash
